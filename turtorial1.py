@@ -17,12 +17,14 @@ thinline = LineStyle(2, black)
 
 rectangle = RectangleAsset(200, 80, thinline, blue) 
 
-ellipse = EllipseAsset(200, 80, thinline, red) 
+ellipse = EllipseAsset(200, 80, thinline, blue) 
+polygon = PolygonAsset([(50,50), (100,100), (100,250,) (50,50)], thinline, red)
 
 Sprite(rectangle, (200, 50)) 
-Sprite(rectangle, (100,25))
 
 Sprite(ellipse, (200,200))
+
+Sprite(polygon, (200,50))
 
 myapp = App()
 myapp.run()

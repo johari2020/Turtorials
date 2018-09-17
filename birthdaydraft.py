@@ -41,7 +41,7 @@ mounth = month_name[todaymonth]
 
 name = input("Hello, what is your name? ")
 month = input("Hi " + name + ", what was the name of the month you were born in?")
-y = input("And what year were your born in, " + name + "? ")
+y = input("And what year were you born in, " + name + "? ")
 d = input("And the day? ")
 day = int(d) 
 year = int(y)
@@ -50,13 +50,13 @@ year = int(y)
 if month == "December" or month == "January" or month == "February":
     a = str("You are a winter baby ")
     
-elif month == "March" or month == "April" or month == "May" and year >= 1990 and year <= 1999 : 
+elif month == "March" or month == "April" or month == "May": 
     a = str("You are a spring baby ")
     
-elif month == "June" or month == "July" or month == "August" and year >= 1990 and year <= 1999:
+elif month == "June" or month == "July" or month == "August" :
     a = str("You are a summer baby ") 
     
-elif month == "September" or month == "October" or month == "November" and year >= 1990 and year <= 1999:
+elif month == "September" or month == "October" or month == "November" :
     a = str("You are a fall baby ") 
 
 if year >= 1990 and year <= 1999:
@@ -69,4 +69,4 @@ elif year >= 2000:
 elif year < 1980: 
     b = str("You are a spring baby of the stone age.")
  
-print(a+b) 
+print(str(a)+str(b)) 

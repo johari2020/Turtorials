@@ -5,7 +5,6 @@ w = int(width)
 i=0
 a = range(i,w)
 b = range(i,h)
-
 l = list(range(1,w)))
 m = list(range(1,h))
 
@@ -17,5 +16,5 @@ for i in b:
     i+= i-1
     for i in a:
         i+=i-1
-        print(l, end = ' ' )
+        print(t, end = ' ' )
     print(" ")

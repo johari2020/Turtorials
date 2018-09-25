@@ -6,7 +6,7 @@ i=0
 a = range(i,w)
 b = range(i,h)
 
-l = list(range(1,w))
+z = list(range(1,w)))
 m = list(range(1,h))
 
 i=0
@@ -14,5 +14,8 @@ t = "X"
     
     
 for i in b:
-    i+=i-1
-    print(t)
+    i+= i-1
+    for i in a:
+        i+=i-1
+        print(l, end = ' ' )
+    print(" ")

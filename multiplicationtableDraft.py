@@ -1,10 +1,10 @@
-height = input("Width of multiplication table: ")
-width = input ("Height of multiplication table: ")
+width = input("Width of multiplication table: ")
+height = input ("Height of multiplication table: ")
 h = int(height)
 w = int(width) 
 i=0
-a = range(i,h)
-b = range(i,w)
+a = range(i,w)
+b = range(i,h)
 
 l = list(range(1,w))
 m = list(range(1,h))
@@ -15,4 +15,4 @@ t = "X"
     
 for i in b:
     i+=i-1
-    print(t*w)
+    print(t)

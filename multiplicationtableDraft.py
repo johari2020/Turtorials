@@ -9,11 +9,10 @@ b = range(i,w)
 l = list(range(1,w))
 m = list(range(1,h))
 
-t = l.*m
-print(t)
-
+i=0
+t = "X"
     
     
 for i in b:
     i+=i-1
-    print(str(l)*(h))
+    print(t*w)

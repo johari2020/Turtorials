@@ -14,6 +14,5 @@ for j in a:
     j+=1
     c=list(range(1,w)) 
     d = [i * (j) for i in c]
-    print(str(list(d)), end = ' ' )
+    print((d), end = ' ' )
     print(" ")
-

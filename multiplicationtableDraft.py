@@ -1,3 +1,5 @@
+https://stackoverflow.com/questions/35166633/how-do-i-multiply-each-element-in-a-list-by-a-number/35166717
+
 width = input("Width of multiplication table: ")
 height = input ("Height of multiplication table: ")
 w=int(width)
@@ -7,10 +9,11 @@ t = "X"
 b=list(range(0,w)) 
 
 a=range(0,h)
+
 for j in a:
-    j+=j-1
-    for i in b:
-        i+=1
-        c=list(range(1,i+1)) 
-        print((c), end = ' ' )
+    j+=1
+    c=list(range(1,w)) 
+    d = [i * (j) for i in c]
+    print(str(list(d)), end = ' ' )
     print(" ")
+

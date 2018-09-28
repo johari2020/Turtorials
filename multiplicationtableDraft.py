@@ -9,7 +9,7 @@ t = "X"
 b=list(range(0,w)) 
 
 a=range(0,h)
-
+meg = " "
 for j in a:
     j+=1
     c=list(range(1,w)) 

@@ -1,8 +1,8 @@
-https://stackoverflow.com/questions/35166633/how-do-i-multiply-each-element-in-a-list-by-a-number/35166717
+#https://stackoverflow.com/questions/35166633/how-do-i-multiply-each-element-in-a-list-by-a-number/35166717
 
 width = input("Width of multiplication table: ")
 height = input ("Height of multiplication table: ")
-w=int(width)
+w=(int(width)+1)
 h=int(height)
 
 t = "X"

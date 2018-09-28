@@ -9,10 +9,15 @@ t = "X"
 b=list(range(0,w)) 
 
 a=range(0,h)
-meg = " "
 for j in a:
+    meg=""
     j+=1
     c=list(range(1,w)) 
     d = [i * (j) for i in c]
-    print((d), end = ' ' )
-    print(" ")
+    for k in d:
+        meg = meg + str(k) + " "
+    print(meg)
+    #print((d), end = ' ' )
+    
+    #print(" ")
+
